@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* header section and navigation */
+header{
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.089)), url("../images/donation0.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+}
+
+.banner-content{
+    margin: 0 auto;
+    color: white;
+    width: 842px;
+    padding-top: 150px;
+}
+
+.banner-title{
+    font-size: 67px;
+    text-align: center;
+    line-height: 0.99;
+    margin-bottom: 25px;
+}
+
+.banner-description{
+    text-align: center;
+    width: 629px;
+    display: block;
+    margin: 0 auto;
+    line-height: 1.44;
+    margin-bottom: 25px;
+    color: #dddddd;
+}
+
+.btn-primary{
+    background-color: #FF5959;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    padding: 15px 20px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+header .logo{
+    color: white;
+    padding: 4px 58px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin-left: 20px;
+    color: white;
+    padding: 8px 58px;
+}
+
+/* donate-today */
+
+.donate-today{
+    width: 600px;
+    margin: 100px auto;
+}
+
+.donate-today-title{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #121212;
+    font-weight: 800;
+
+}
