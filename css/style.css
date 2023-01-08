@@ -49,6 +49,7 @@ header{
     margin-bottom: 25px;
     text-transform: capitalize;
     font-weight: 500;
+    margin-bottom: 20px;
 }
 
 header .logo{
@@ -64,20 +65,25 @@ nav {
 
 nav ul {
     display: flex;
+    gap: 80px;
+    align-items: center;
 }
 
 nav ul li{
     list-style-type: none;
-    margin-left: 20px;
     color: white;
-    padding: 8px 58px;
+    padding-right: 50px;
+    
 }
 
 /* donate-today */
 
 .donate-today{
     width: 600px;
-    margin: 100px auto;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .donate-today-title{
@@ -87,4 +93,53 @@ nav ul li{
     color: #121212;
     font-weight: 800;
 
+}
+
+.donate-today-description{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #707070;
+}
+
+.donate-today-allboxes{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.single-box{
+    padding: 0 25px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #707070;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+}
+
+.single-box:nth-child(2){
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+
+}
+
+.other-account-tk{
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid #D4D4D4;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    padding: 8px 0;
+    font-size: 18px;
+}
+
+.other-account-tk::placeholder{
+    color:#D4D4D4;
+    border-top: white;
 }
