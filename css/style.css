@@ -234,3 +234,30 @@ nav ul li{
 .depend-donation-left button{
     float: left;
 }
+
+/* They need us to survive */
+.survive-section{
+    display: flex;
+    gap: 50px;
+    margin: 0 100px;
+    margin-top: 100px;
+}
+
+.survive-section h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.survive-section p{
+    color: #707070;
+    margin-bottom: 20px;
+}
+
+.survive-section button{
+    float: left;
+}
+
+.survive-section-right{
+    margin-top: 90px;
+    width: 100%;
+}
