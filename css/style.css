@@ -154,6 +154,7 @@ nav ul li{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .our-donate-plan h3{
@@ -173,7 +174,7 @@ nav ul li{
 .donate-plan-allboxes{
     display: flex;
     margin: 0 100px;
-    gap: 50px;
+    gap: 30px;
 }
 
 .donateplan-sigleboxes{
@@ -203,4 +204,33 @@ nav ul li{
     text-align: left;
     margin-bottom: 20px;
     color: #707070;
+}
+
+/* Their lives depend on your donation */
+
+#depend-donation{
+    margin: 0 100px;
+    display: flex;
+    gap: 50px;
+}
+
+#depend-donation img{
+    width: 100%;
+}
+
+.depend-donation-left{
+    margin-top: auto;
+}
+
+.depend-donation-left p {
+    margin-bottom: 20px;
+    color: #707070;
+}
+.depend-donation-left h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #121212;
+}
+.depend-donation-left button{
+    float: left;
 }
