@@ -314,6 +314,7 @@ footer{
     height: 10vh;
     display: flex;
     justify-content: center;
+    margin-top: 40px;
     
 }
 footer h3{
